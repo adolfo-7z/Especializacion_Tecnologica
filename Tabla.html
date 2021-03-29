@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tabla</title>
+        <style>
+            input[type=text] {
+                padding: 7px 16px;
+                border-radius: 4px;
+            }
+            body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+            .topnav {
+            overflow: hidden;
+            background-color: #333;
+            }
+
+            .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            }
+
+            .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+            }
+
+            .topnav a.active {
+            background-color: #4CAF50;
+            color: white;
+            }
+
+            #alumnos {
+              font-family: Arial, Helvetica, sans-serif;
+              border-collapse: collapse;
+              width: 75%;
+            }
+            
+            #alumnos td, #alumnos th {
+              border: 1px solid #ddd;
+              padding: 8px;
+            }
+            
+            #alumnos tr:nth-child(even){background-color: #f2f2f2;}
+            
+            #alumnos tr:hover {background-color: #ddd;}
+            
+            #alumnos th {
+              padding-top: 12px;
+              padding-bottom: 12px;
+              text-align: center;
+              background-color: #4ab835;
+              color: rgb(0, 0, 0);
+            }
+            #alumnos td {
+                text-align: center;
+            }
+            .center {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            h2 {
+                text-align: center;
+            }
+
+            div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            }
+            </style>
+    </head>
+    <body>
+        <div class="topnav">
+          <a href="/Formulario.html">Formulario</a>
+          <a class="active" href="/Tabla.html">Tabla</a>
+        </div>
+
+        <h2>Datos Registrados</h2>
+        <table id="alumnos" class="center">
+            <tr>
+                <th>Nombre</th>
+                <th>E-mail</th>
+                <th>Telefono</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Carrera</th>
+                <th>Año de ingreso</th>
+              </tr>
+              <tr>
+                <td>Adolfo plaza</td>
+                <td>a.plaza@gmail.com</td>
+                <td>999999999</td>
+                <td>17-02-2000</td>
+                <td>Ingeniería Informática</td>
+                <td>2019</td>
+              </tr>
+              <tr>
+                <td>Alex Araya</td>
+                <td>a.araya@gmail.com</td>
+                <td>999999999</td>
+                <td>23-09-1999</td>
+                <td>Ingeniería Informática</td>
+                <td>2018</td>
+              </tr>
+              <tr>
+                <td>David Calderon</td>
+                <td>d.calderon@gmail.com</td>
+                <td>999999999</td>
+                <td>01-05-1997</td>
+                <td>Ingeniería Industrial Mencion Informática</td>
+                <td>2016</td>
+              </tr>
+              <tr>
+                <td>Alan Montenegro</td>
+                <td>a.montenegro@gmail.com</td>
+                <td>999999999</td>
+                <td>21-01-1995</td>
+                <td>Ingeniería Civil Informática</td>
+                <td>2014</td>
+              </tr>
+        </table>
+    </body>
+</html>
